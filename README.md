@@ -4,47 +4,38 @@ ViDi - the To-Do list application built around speed.
 ## Overview
 
 1. Description
-2. Team
-3. Greatly Expanded User Documentation
-    - 3.1 General Commands & Launch 
-    - 3.2 Basic Task Management
-    - 3.3 Filtering
-    - 3.4 Sorting
-    - 3.5 Tags
-    - 3.6 Edit Mode
-    - 3.7 Further Documentation on Dates & Notifications
-    - 3.8 Extra - Tips
-4. Visuals (Application Screenshots)
-    - 4.1 Login Page
-    - 4.2 Register Page
-    - 4.3 View Mode
-    - 4.4 Tag List
-    - 4.5 Create Tag 
-    - 4.6 Delete Tag
-    - 4.7 Filter By Tag
-    - 4.8 Edit View
-    - 4.9 Filtering & Sorting
-    - 4.10 Notifications
-5. Installation
-6. Acknowledgments of Third Parties
-7. License
+2. Greatly Expanded User Documentation
+    - 2.1 General Commands & Launch 
+    - 2.2 Basic Task Management
+    - 2.3 Filtering
+    - 2.4 Sorting
+    - 2.5 Tags
+    - 2.6 Edit Mode
+    - 2.7 Further Documentation on Dates & Notifications
+    - 2.8 Extra - Tips
+3. Visuals (Application Screenshots)
+    - 3.1 Login Page
+    - 3.2 Register Page
+    - 3.3 View Mode
+    - 3.4 Tag List
+    - 3.5 Create Tag 
+    - 3.6 Delete Tag
+    - 3.7 Filter By Tag
+    - 3.8 Edit View
+    - 3.9 Filtering & Sorting
+    - 3.10 Notifications
+4. Installation
+5. Acknowledgments of Third Parties
+6. License
 
 ## 1. Description
-The main idea of ViDi, our To-Do list application, is to optimize the time a user will have to spend inputting tasks so
+The main idea of ViDi, a To-Do list application, is to optimize the time a user will have to spend inputting tasks so
 they can spend more of their time doing the task themselves. Developed with inspiration from Vim/Vi, there are 
 shortcuts for everything you could possibly need built into the application. There is no need, and no ability, to use
 your mouse/cursor in our application. ViDi also supports online and offline synching to allow you to write your tasks on the 
 go and access them from any device as long as you remember your username and password.
 
-## 2. Team
-
-Members:
-- Adeit Dalal 
-- Javin Mehta
-- Rahul Gudise
-- Rishabh Sambare
-
-## 3. User Documentation
+## 2. User Documentation
 Note: This application creates a background process when closed. To fully exit the application on Windows and MacOS, you 
 will have to exit from the system tray.
 
@@ -53,7 +44,7 @@ All following shortcuts are also stored in a document keybindings.pdf at the top
 See the images in Section 4 for images on how each feature being explained looks like! Specific image references 
 are provided in the documentation.
 
-### 3.1 General Commands & Launch
+### 2.1 General Commands & Launch
 Pressing **escape** while inside of a textbox will remove focus from the textbox and allow you to input hotkeyed commands. 
 
 When launching the application, you will reach the login screen (_Image 4.1_). If this is your first time using the application, 
@@ -73,7 +64,7 @@ This is called the View Mode! Here you can perform a variety of functions on you
 - Undo Previous Command (**z**)
 - Redo Previous Command (**y**)
 
-### 3.2 Basic Task Management
+### 2.2 Basic Task Management
 These are the basic functionalities for managing tasks in ToDoList.
 
 - Add a blank task (**a**)
@@ -91,7 +82,7 @@ These are the basic functionalities for managing tasks in ToDoList.
 - Paste Task (**v**)
 - Duplicate task (**m**)
 
-### 3.3 Filtering
+### 2.3 Filtering
 Filtering will only show tasks that meet the requirements specified in the filter box once the command is run.
 
 - Filter by Name (**f + n**)
@@ -104,7 +95,7 @@ Filtering will only show tasks that meet the requirements specified in the filte
 - See _Image 4.7_ for a visual of the filtering UI
 - See _Image 4.9_ for an example of how filtered tasks look like
 
-### 3.4 Sorting
+### 2.4 Sorting
 By default, sort is done by ascending. You can sort by descending by pressing (**shift**) when inputting a command. 
 
 - Sort by Name (**s + n**)
@@ -114,7 +105,7 @@ By default, sort is done by ascending. You can sort by descending by pressing (*
 - For example, to sort by name descending is **shift + s + n**
 - See _Image 4.9_ for an example of how sorted tasks look like
 
-### 3.5 Tags
+### 2.5 Tags
 Tags are a way to add customized groups to tasks that can be filtered and searched for. 
 
 - Create a tag (**t + c**)
@@ -123,7 +114,7 @@ Tags are a way to add customized groups to tasks that can be filtered and search
 - **enter** to create/delete specified tag. 
 - See _Images 4.4, 4.5, 4.6_ to see visuals of the tag commands
 
-### 3.6 Edit Mode
+### 2.6 Edit Mode
 While editing a task, you'll be entered into edit mode, which has its own set of commands.
 
 - Finish Editing Task/Task Field (**escape**)
@@ -142,7 +133,7 @@ While editing a task, you'll be entered into edit mode, which has its own set of
 - Change End Date (**d**)
 - See _Image 4.8_ for a visual of Edit Mode
 
-#### 3.7 Further Documentation on Dates & Notifications
+#### 2.7 Further Documentation on Dates & Notifications
 - If a notification time is empty but the end date is not, it will be defaulted to noon of that day (12 pm)
 - If an end date is empty but the notification time is not, then it will be defaulted to 'Today'
 - Entering 'Today' and 'Tomorrow' will be translated to dates! 
@@ -153,7 +144,7 @@ While editing a task, you'll be entered into edit mode, which has its own set of
     - xm, where x is a positive integer, will place the date x months from now
     - xy, where x is a positive integer, will place the date x years from now
 
-### 3.8 Extra - Tips
+### 2.8 Extra - Tips
 - If you're concerned about having clicked an incorrect key, press **escape** to cancel multi-character commands or **z** to undo.
 - Account username and password cannot be smaller than 4 characters.
 - Data is only saved locally/on offline mode for registered users.
@@ -166,34 +157,34 @@ While editing a task, you'll be entered into edit mode, which has its own set of
     - Manually shifting items in the list will change your sort to 'custom'.
     - Filters will stack upon each other until you clear them.
 
-## 4. Visuals
+## 3. Visuals
 
 ### Login and Register page:
 
-| 4.1 Login page                        | 4.2 Register Page                           |
+| 3.1 Login page                        | 3.2 Register Page                           |
 |:-------------------------------------:|:--------------------------------------------|
 | ![Login Page](ReadMeImages/login.png) | ![Register Page](ReadMeImages/Register.png) |
 
 ### Main Screen (View Mode):
 
-| 4.3 View Mode                               |
+| 3.3 View Mode                               |
 |:-------------------------------------------:|
 | ![Main Screen](ReadMeImages/MainScreen.png) |
 
 
 ### To view, filter by, create and delete tags:
 
-| 4.4 Tag List                          | 4.5 Create Tag                            |
+| 3.4 Tag List                          | 3.5 Create Tag                            |
 |:-------------------------------------:|:-----------------------------------------:|
 | ![Tag List](ReadMeImages/TagList.png) | ![Create Tag](ReadMeImages/CreateTag.png) |
 
-| 4.6  Delete Tag                           | 4.7 Filter By Tag                         |
+| 3.6  Delete Tag                           | 3.7 Filter By Tag                         |
 |:-----------------------------------------:|:-----------------------------------------:|
 | ![Delete Tag](ReadMeImages/DeleteTag.png) | ![Filter Tag](ReadMeImages/FilterTag.png) |
 
 ### Edit Tasks:
 
-| 4.8 Edit Mode                               |
+| 3.8 Edit Mode                               |
 |:-------------------------------------------:|
 | ![Edit Screen](ReadMeImages/EditScreen.png) |
 
@@ -204,17 +195,17 @@ This is an example of creating a filter by the tag CS and sorting lexographicall
 There are many other options for filtering, filter by: name, priority or date. In addition you can filter 
 by anything (which is really a general search function).
 
-| 4.9 Filtering & Sorting                     |
+| 3.9 Filtering & Sorting                     |
 |:-------------------------------------------:|
 | ![img.png](ReadMeImages/FilterAndSort.png)  |
 
 
 ### Notifications:
-| 4.10 Notifications                          |
+| 3.10 Notifications                          |
 |:-------------------------------------------:|
 | ![img.png](ReadMeImages/Notifications.png)  |
 
-## 5. Installation
+## 4. Installation
 After downloading the application locally, if you are using IntelliJ access the Gradle tab on the right, then Clean, 
 Build and Jpackage the application. Then under demoList > build > jpackage there will be a native installer you can run 
 to download the application locally. Note: jpackage takes time to download.
@@ -225,7 +216,7 @@ Location of native installer (Windows example):
 
 `C:\{Location of Application}\{Name of Application}\demoList\build\jpackage\ToDoList-1.1.0.msi`
 
-## 6. Acknowledgments of Third Parties
+## 5. Acknowledgments of Third Parties
 [Gradle](https://github.com/gradle/gradle)
 
 [ktor](https://github.com/ktorio/ktor)
